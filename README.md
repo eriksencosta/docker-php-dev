@@ -64,7 +64,7 @@ You can start the Nginx and PHP-FPM services using the helper command `webserver
 
 The Zend OPCache is enabled by default. If you want to disable it, you can run the helper command `opcache`:
 
-    # sudo opcache disable
+    # opcache disable
     The Zend OPCache was disabled.
 
     You need to restart the webserver for the changes to take effect.
@@ -75,7 +75,7 @@ The Zend OPCache is enabled by default. If you want to disable it, you can run t
 
 ## PHP Information
 
-After starting the container, access `http://localhost/_info.php` (or an IP address if you're using Boot2Docker).
+After starting the container, access `http://localhost/info.php` (or an IP address if you're using Boot2Docker).
 
 
 ### PHP-FPM
