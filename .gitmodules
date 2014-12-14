@@ -1,0 +1,3 @@
+[submodule "ansible-php-dev"]
+	path = ansible-php-dev
+	url = git://github.com/eriksencosta/ansible-php-dev.git
