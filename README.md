@@ -6,9 +6,9 @@ This image is aimed to help developers which need to develop and test their proj
 
 The following PHP versions are available:
 
-- 5.6.3
-- 5.5.19
-- 5.4.35
+- 5.6.4
+- 5.5.20
+- 5.4.36
 - 5.3.29
 
 This container also ships with Nginx, which integrates to the right PHP-FPM version.
