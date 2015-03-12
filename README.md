@@ -6,9 +6,9 @@ This image is aimed to help developers which need to develop and test their proj
 
 The following PHP versions are available:
 
-- 5.6.5
-- 5.5.21
-- 5.4.37
+- 5.6.6
+- 5.5.22
+- 5.4.38
 - 5.3.29
 
 This container also ships with Nginx, which integrates to the right PHP-FPM version.
@@ -125,6 +125,7 @@ Each PHP version is built with the following extensions:
 - posix
 - readline
 - Reflection
+- redis
 - riak
 - session
 - shmop
@@ -154,6 +155,7 @@ From the previous list, the following extensions were installed using PECL:
 - [igbinary][#php-igbinary]
 - [memcached][#php-memcached]
 - [mongo][#php-mongo]
+- [redis][#php-redis]
 - [riak][#php-riak]
 - [xdebug][#php-xdebug]
 - [Zend OPcache][#php-opcache] (PHP < 5.5)
@@ -189,6 +191,7 @@ Apache License 2.0
 [#php-igbinary]: http://pecl.php.net/package/igbinary
 [#php-memcached]: http://pecl.php.net/package/memcached
 [#php-mongo]: http://pecl.php.net/package/mongo
+[#php-redis]: http://pecl.php.net/package/redis
 [#php-riak]: http://pecl.php.net/package/riak
 [#php-xdebug]: http://pecl.php.net/package/xdebug
 [#php-opcache]: http://pecl.php.net/package/ZendOpcache
